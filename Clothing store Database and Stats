@@ -1,0 +1,11 @@
+CREATE TABLE clothing store (id integer primary key, category TEXT, quantity integer, price integer);
+
+INSERT INTO clothing store
+values
+(1, "skirts", 10, 4000),
+(2, "pants", 5, 7000),
+(3, "dresses", 3, 12000),
+(4, "bags", 6, 8000),
+(5, "shoes", 7, 7000);
+
+select* from clothing store;
